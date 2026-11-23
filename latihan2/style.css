@@ -1,0 +1,47 @@
+/* 
+font-size :
+- px
+- %
+- em 
+
+font-weight :
+- lighter
+- normal
+- 100-900
+- bold
+- bolder
+
+font-variant :
+- normal
+- small-caps ( huruf besarnya akan lebih besar, yg lain jadi lebih kecil)
+
+font-style :
+- normal
+- italic ( teks jadi miring bisa digunakan jika fontnya memiliki jenis italic/miring )
+- oblique ( font akan dipaksa miring meski tidak punya tipe italic )
+
+line-height ( mengatur spasi ):
+- normal
+- px
+- em
+
+satu baris style font
+css font ( shorthand ) :
+font : font-style font-variant font-weight font-size line-heigt font-family;
+*/
+h1 {
+    /* yg dipanggil pertama font arial jika tidak ada maka verdana */
+    font-family: arial, Verdana,sans-serif;   
+    font-size: 100px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+/* 
+sans serif : tidak berkaki
+serif : font yg berkaki */
+p {
+   font-family: Georgia, serif; 
+   line-height: 30px;
+}
