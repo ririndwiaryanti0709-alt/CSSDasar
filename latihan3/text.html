@@ -1,0 +1,87 @@
+<!-- 
+ font dan text berbeda dalam css 
+ kalau font berkaitan dengan tipe facenya 
+ kalau text berkaitan dengan warna, jarak antar kata dll
+
+ atribut text :
+ - color : warna
+ - text-align : format paragrap / teks minsal rata kiri, kanan dll
+ - text-indent : memberi indentasi pada paragraf/teks
+ - text-decoration : mengatur dekorasi pada paragrap/teks seperti underline/teks dicoret
+ - text-transform : mengubah jenis huruf pada teks minsal huruf kecil atau huruf besar/ kapital
+ - letter-spacing : mengatur spasi antar huruf
+ - word-spacing : mengatur spasi antar kata
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling Css</title>
+    <style>
+        /* 
+        color :
+        - nama warna : minsal blue
+        - hexadecimal : contoh #ff000, #fff
+        - rgb (gradasi) : rgb (255, 0,0 )
+
+        text-align :
+        - left (kiri)
+        - right (kanan)
+        - center (tengah)
+        - justify ( rata kiri kanan)
+
+        text-indent (menambahkan spasi di awal pargraf) :
+        - px
+        - %
+        
+        text-decoration :
+        - none
+        - underline ( garis bawah tulisan)
+        - overline ( garis atas tulisan )
+        - line-through ( ditengah tulisan / di coret )
+
+        text transform :
+        - none
+        - lowercas ( huruf kecil )
+        - uppercase ( huruf besar )
+        - capitalize ( kapital / huruf besar di awal)
+
+        letter-spacing :
+        - normal
+        - px
+
+        word-spaciing :
+        - normal
+        - px
+         */
+         h1 {
+            font-size: 150px;
+            color: #ff0099;
+            text-align: center;
+            text-decoration: line-through;
+
+            
+         }
+
+         p {
+            text-align: justify;
+            text-indent: 100px;
+            text-transform: capitalize;
+            letter-spacing: normal ;
+            word-spacing: 10px;
+         }
+
+         a {
+            text-decoration: line-through;
+         }
+
+    </style>
+ </head>
+ <body>
+    <h1>hello world</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio asperiores voluptatem quibusdam laborum! Eos ipsum assumenda explicabo magni sed dolorum similique magnam minima? Enim non aspernatur eius eveniet saepe.</p>
+
+    <a href="#">ini adalah link</a>
+ </body>
+ </html>
